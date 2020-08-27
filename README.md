@@ -79,10 +79,6 @@ An important discussion to have is how do these services communicate with each o
     - If timer for Active Reservation Service runs out, the person first on queue will be notified
     - If seat (or entire booking) is booked, notify everyone on the queue
 
-## Sample Activity Diagram
-
-![Microservice Activity Diagram](./MicroservicesActivityDiagram.png)
-
 ## Sample Data Flow Diagram
 
 The reason that the microservices don't have their own databases is that they depend on the same data. 
